@@ -1,0 +1,65 @@
+   0.000 2020-02-07 14:29:35; Factorio 0.18.4 (build 49340, linux64, headless)
+   0.028 Operating system: Linux (Ubuntu 19.10)
+   0.028 Program arguments: "../bin/x64/factorio" "--start-server" "../saves/japc.zip" "--server-settings" "../data/fctrserver.json" "--port" "34202" "--rcon-port" "34203" "--rcon-password" <private> 
+   0.028 Read data path: /var/www/panel/server/X2/data
+   0.028 Write data path: /var/www/panel/server/X2 [667034/894644MB]
+   0.028 Binaries path: /var/www/panel/server/X2/bin
+   0.033 System info: [CPU: AMD Ryzen 5 3600 6-Core Processor, 12 cores, RAM: 64335 MB]
+   0.033 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.033 Running in headless mode
+   0.036 Loading mod core 0.0.0 (data.lua)
+   0.078 Loading mod base 0.18.4 (data.lua)
+   0.253 Loading mod base 0.18.4 (data-updates.lua)
+   0.348 Checksum for core: 1454438658
+   0.348 Checksum of base: 1870405162
+   0.475 Prototype list checksum: 4109119676
+   0.506 Info PlayerData.cpp:68: Local player-data.json available, timestamp 1581066950
+   0.506 Info PlayerData.cpp:75: Cloud player-data.json unavailable
+   0.533 Factorio initialised
+   0.559 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/api-login?api_version=4
+   1.078 Info AuthServerConnector.cpp:133: Got token from auth server for username(IIPoliII).
+   1.079 Info ServerMultiplayerManager.cpp:773: updateTick(4294967295) changing state from(Ready) to(PreparedToHostGame)
+   1.079 Info ServerMultiplayerManager.cpp:773: updateTick(4294967295) changing state from(PreparedToHostGame) to(CreatingGame)
+   1.079 Loading map /var/www/panel/server/X2/ServerManager/../saves/japc.zip: 54704374 bytes.
+   1.092 Loading level.dat: 173137651 bytes.
+   1.097 Info Scenario.cpp:187: Map version 0.18.4-1
+   4.661 Loading script.dat: 756187 bytes.
+   4.666 Checksum for script /var/www/panel/server/X2/temp/currently-playing/control.lua: 3888309935
+   5.408 Info UDPSocket.cpp:27: Opening socket at (IP ADDR:({0.0.0.0:34202}))
+   5.408 Hosting game at IP ADDR:({0.0.0.0:34202})
+   5.433 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=4
+   5.538 Info AuthServerConnector.cpp:66: Obtained serverPadlock for serverHash (bwhma8qPLjvo9K8Pa77RsFkWhqr59wCm) from the auth server.
+   5.538 Info ServerMultiplayerManager.cpp:773: updateTick(20868497) changing state from(CreatingGame) to(InGame)
+   5.564 Info ServerRouter.cpp:614: Asking pingpong servers (pingpong1.factorio.com:34197, pingpong2.factorio.com:34197, pingpong3.factorio.com:34197, pingpong4.factorio.com:34197) for own address
+   5.564 Info UDPSocket.cpp:39: Opening socket for broadcast
+   5.666 Info ServerRouter.cpp:497: Own address is IP ADDR:({46.4.121.74:34202}) (confirmed by pingpong1)
+   5.683 Info ServerRouter.cpp:497: Own address is IP ADDR:({46.4.121.74:34202}) (confirmed by pingpong3)
+   5.818 Info ServerRouter.cpp:497: Own address is IP ADDR:({46.4.121.74:34202}) (confirmed by pingpong4)
+   6.195 Info MatchingServer.cpp:114: Matching server game `6785187` has been created.
+   6.203 Info ServerMultiplayerManager.cpp:705: Matching server connection resumed
+2020-02-07 14:30:02 [CHAT] <server>: Join us at discord.joinandplaycoop.com !
+  26.585 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X2/ServerManager/../saves/japc.zip
+2020-02-07 14:30:02 [CHAT] <server>: Current time : 14:30 (Central Europe)
+2020-02-07 14:30:02 [CHAT] <server>: The server has been saved !
+2020-02-07 14:30:02 [CHAT] <server>: Rockets sent accross all forces 1081
+  29.957 Info AppManager.cpp:398: Saving finished
+  29.957 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X2/ServerManager/../saves/japc.zip
+  33.276 Info AppManager.cpp:398: Saving finished
+ 925.893 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X2/ServerManager/../saves/japc.zip
+2020-02-07 14:45:01 [CHAT] <server>: The server has been saved !
+ 929.171 Info AppManager.cpp:398: Saving finished
+ 929.171 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X2/ServerManager/../saves/japc.zip
+ 932.443 Info AppManager.cpp:398: Saving finished
+1826.569 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X2/ServerManager/../saves/japc.zip
+2020-02-07 15:00:02 [CHAT] <server>: Current time : 15:00 (Central Europe)
+2020-02-07 15:00:02 [CHAT] <server>: The server has been saved !
+2020-02-07 15:00:02 [CHAT] <server>: Rockets sent accross all forces 1081
+2020-02-07 15:00:03 [CHAT] <server>: Join us at discord.joinandplaycoop.com !
+1830.163 Info AppManager.cpp:398: Saving finished
+1830.163 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X2/ServerManager/../saves/japc.zip
+1833.601 Info AppManager.cpp:398: Saving finished
+2725.858 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X2/ServerManager/../saves/japc.zip
+2020-02-07 15:15:01 [CHAT] <server>: The server has been saved !
+2729.364 Info AppManager.cpp:398: Saving finished
+2729.364 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X2/ServerManager/../saves/japc.zip
+2732.653 Info AppManager.cpp:398: Saving finished

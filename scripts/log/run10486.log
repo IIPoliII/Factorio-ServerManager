@@ -1,0 +1,11 @@
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+The server is currently reseting or the data in the database is wrong please be patient or correct it
+Coyping the save to rollback
+cp: cannot stat 'tmp/Default3.zip': No such file or directory
+Normally the save has been moved, we will now start the server
+The server is currently reseting or the data in the database is wrong please be patient or correct it
+Finished

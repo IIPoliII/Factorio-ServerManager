@@ -1,0 +1,15 @@
+ HERE ../server/x1 0.17/JoinAndPlayCoop-Scenario-Oarc-0.17
+config.lua   japc-event-handler.lua  LICENSE  MapGen       README.md
+control.lua  lib                     locale   MapSettigns
+renamed 'config.lua' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/config.lua'
+renamed 'control.lua' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/control.lua'
+renamed 'japc-event-handler.lua' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/japc-event-handler.lua'
+renamed 'lib' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/lib'
+renamed 'LICENSE' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/LICENSE'
+renamed 'locale' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/locale'
+renamed 'MapGen' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/MapGen'
+renamed 'MapSettigns' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/MapSettigns'
+renamed 'README.md' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/README.md'
+Scenario copied
+Removed temp files
+Finished

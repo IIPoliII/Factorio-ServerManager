@@ -1,0 +1,129 @@
+Reset starting sending message to players and waiting 15 seconds
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+We arent sure about the data we got via rcon we will recheck it to be sure
+Retrying 0/6
+Connection failed.
+Error 111: Connection refused
+Retrying 1/6
+Connection failed.
+Error 111: Connection refused
+Retrying 2/6
+Connection failed.
+Error 111: Connection refused
+Retrying 3/6
+Connection failed.
+Error 111: Connection refused
+Retrying 4/6
+Connection failed.
+Error 111: Connection refused
+Retrying 5/6
+Connection failed.
+Error 111: Connection refused
+Sorry one more test has to be done to check the data this operation can take 5 seconds more
+Connection failed.
+Error 111: Connection refused
+The data seems okay
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+We arent sure about the data we got via rcon we will recheck it to be sure
+Retrying 0/6
+Connection failed.
+Error 111: Connection refused
+Retrying 1/6
+Connection failed.
+Error 111: Connection refused
+Retrying 2/6
+Connection failed.
+Error 111: Connection refused
+Retrying 3/6
+Connection failed.
+Error 111: Connection refused
+Retrying 4/6
+Connection failed.
+Error 111: Connection refused
+Retrying 5/6
+Connection failed.
+Error 111: Connection refused
+Sorry one more test has to be done to check the data this operation can take 5 seconds more
+Connection failed.
+Error 111: Connection refused
+The data seems okay
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+We arent sure about the data we got via rcon we will recheck it to be sure
+Retrying 0/6
+Connection failed.
+Error 111: Connection refused
+Retrying 1/6
+Connection failed.
+Error 111: Connection refused
+Retrying 2/6
+Connection failed.
+Error 111: Connection refused
+Retrying 3/6
+Connection failed.
+Error 111: Connection refused
+Retrying 4/6
+Connection failed.
+Error 111: Connection refused
+Retrying 5/6
+Connection failed.
+Error 111: Connection refused
+Sorry one more test has to be done to check the data this operation can take 5 seconds more
+Connection failed.
+Error 111: Connection refused
+The data seems okay
+If you have errors here it's because the server is probably stoped
+
+Stoped
+mv: cannot stat '../server/x1/saves/japc.zip': No such file or directory
+Moved the save
+Stoped and changed the env to create the save
+Starting to create new map
+Game was started
+Stoping map gen
+If you have errors here it's because the server is probably stoped
+Checking if factorio is still running : 1Checking if factorio is still running : 2Checking if factorio is still running : 3
+Stoped
+saves/JoinAndPlayCoop-Scenario.zip saves/japc.zip
+Game was started
+We arent sure about the data we got via rcon we will recheck it to be sure
+Retrying 0/6
+Retrying 1/6
+Retrying 2/6
+Retrying 3/6
+Retrying 4/6
+Retrying 5/6
+Sorry one more test has to be done to check the data this operation can take 5 seconds more
+The data seems okay
+Finished

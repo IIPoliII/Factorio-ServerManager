@@ -1,0 +1,8 @@
+grep: ../server/ServerManager/.env: No such file or directory
+grep: ../server/factorio-current.log: No such file or directory
+grep: ../server/ServerManager/.env: No such file or directory
+Checking if factorio is still running : 1Checking if factorio is still running : 2Checking if factorio is still running : 3Checking if factorio is still running : 4Checking if factorio is still running : 5
+Stoped
+Removing the server in the database
+Removing the folder
+Finished

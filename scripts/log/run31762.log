@@ -1,0 +1,25 @@
+grep: ../server/ServerManager/.env: No such file or directory
+grep: ../server/factorio-current.log: No such file or directory
+grep: ../server/ServerManager/.env: No such file or directory
+Copying the template files
+Downloading factorio
+--2019-10-12 18:07:54--  https://www.factorio.com/get-download/latest/headless/linux64
+Resolving www.factorio.com (www.factorio.com)... 54.156.217.124, 3.227.43.216, 3.224.23.57, ...
+Connecting to www.factorio.com (www.factorio.com)|54.156.217.124|:443... connected.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://dcdn.factorio.com/releases/factorio_headless_x64_0.17.69.tar.xz?key=Nu8YcmCQ5hgBfQxHzd52MQ&expires=1570904275 [following]
+--2019-10-12 18:07:55--  https://dcdn.factorio.com/releases/factorio_headless_x64_0.17.69.tar.xz?key=Nu8YcmCQ5hgBfQxHzd52MQ&expires=1570904275
+Resolving dcdn.factorio.com (dcdn.factorio.com)... 139.162.147.142, 2a01:7e01::f03c:91ff:fee5:4564
+Connecting to dcdn.factorio.com (dcdn.factorio.com)|139.162.147.142|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 32190240 (31M) [application/octet-stream]
+Saving to: ‘factorio_headless.tar.xz’
+
+factorio_headless.t   0%[                    ]       0  --.-KB/s               factorio_headless.t  26%[====>               ]   8.02M  39.8MB/s               factorio_headless.t  51%[=========>          ]  15.70M  39.1MB/s               factorio_headless.t  69%[============>       ]  21.23M  35.2MB/s               factorio_headless.t  85%[================>   ]  26.26M  32.7MB/s               factorio_headless.t 100%[===================>]  30.70M  31.6MB/s    in 1.0s    
+
+2019-10-12 18:07:56 (31.6 MB/s) - ‘factorio_headless.tar.xz’ saved [32190240/32190240]
+
+Decompressing factorio
+Removing factorio downloaded files and folders and moving a config file
+Copying the template again to be sure of the config
+Finished

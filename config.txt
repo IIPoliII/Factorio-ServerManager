@@ -1,0 +1,13 @@
+mysqlDB=Factorio-Stats
+mysqlIP=Yourhost.com
+mysqlPORT=3306
+mysqlUSER=Test
+mysqlPWD=Test2
+#END of my sql remember to NOT MOVE THE LINES !!!!!! OR CHANGE THEIR NAMES ALWAYS PUT THE DATA AFTER THE = we get the data based on that
+#Discord webhooks
+DiscordBanWebhook=https://discordapp.com/api/webhooks/600123123131/dwadaw12312312312312cacawc-231-231
+DiscordNewsWebhook=https://discordapp.com/api/webhooks/12312314514/dwadacwaeawe123caw
+#For the discord login see the token.json file
+#For the mods update we need the factorio.com login we recommand using a token you can get one going on factorio.com > Your username (top right) and find Token and simply paste it here (https://factorio.com/profile)
+FactorioUsername=Test
+FactorioToken=3123fad213fjha8d743

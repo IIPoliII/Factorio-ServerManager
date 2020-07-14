@@ -1,0 +1,9 @@
+grep: ../server/ServerManager/.env: No such file or directory
+grep: ../server/factorio-current.log: No such file or directory
+grep: ../server/ServerManager/.env: No such file or directory
+
+Stoped
+Removing the server in the database
+ERROR 1449 (HY000) at line 1: The user specified as a definer ('solarcloud'@'%') does not exist
+Removing the folder
+Finished

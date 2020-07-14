@@ -1,0 +1,40 @@
+<FilesMatch ".csv">
+    Order Allow,Deny
+    Deny from All
+</FilesMatch>
+
+<FilesMatch ".txt">
+    Order Allow,Deny
+    Deny from All
+</FilesMatch>
+
+<FilesMatch "version.txt">
+    Order Allow,Deny
+    Allow from All
+</FilesMatch>
+
+<FilesMatch ".sh">
+    Order Allow,Deny
+    Deny from All
+</FilesMatch>
+
+<FilesMatch ".json">
+    Order Allow,Deny
+    Deny from All
+</FilesMatch>
+
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+<Files server/*>
+Order deny,allow
+Deny from all
+</Files>
+
+php_value upload_max_filesize 20000M
+php_value post_max_size 20001M
+php_value memory_limit 512M
+php_value max_execution_time 300
+php_value max_input_time 300

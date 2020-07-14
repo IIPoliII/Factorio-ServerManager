@@ -1,0 +1,15 @@
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/compat' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/compat'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/config.lua' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/config.lua'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/control.lua' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/control.lua'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/description.json' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/description.json'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/image.png' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/image.png'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/japc-event-handler.lua' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/japc-event-handler.lua'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/lib' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/lib'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/LICENSE' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/LICENSE'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/locale' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/locale'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/MapGen' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/MapGen'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/MapSettigns' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/MapSettigns'
+renamed '../server/X1/tmp/factorioScenarioDownload/0.18/JoinAndPlayCoop-Scenario-Oarc-0.18/README.md' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/README.md'
+Scenario copied
+Removed temp files
+Finished

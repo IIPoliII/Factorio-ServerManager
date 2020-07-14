@@ -1,0 +1,17 @@
+Reset starting sending message to players and waiting 15 seconds
+curl: (3) URL using bad/illegal format or missing URL
+{"message": "Cannot send an empty message", "code": 50006}If you have errors here it's because the server is probably stoped
+Checking if factorio is still running : 1Checking if factorio is still running : 2Checking if factorio is still running : 3
+Stoped
+Moved the save
+Stoped and changed the env to create the save
+Starting to create new map
+Game was started
+Stoping map gen
+If you have errors here it's because the server is probably stoped
+Checking if factorio is still running : 4Checking if factorio is still running : 5Checking if factorio is still running : 6
+Stoped
+saves/JoinAndPlayCoop-Scenario.zip saves/japc.zip
+Game was started
+curl: (3) URL using bad/illegal format or missing URL
+{"message": "Cannot send an empty message", "code": 50006}Finished

@@ -1,0 +1,9 @@
+#DO NOT MOVE THE LINES
+#Link to the github put NONE for no scenario
+https://github.com/joinandplaycoop/Factorio-Scenarios.git
+#Directory put . if there is none
+0.X.X/JoinAndPlayCoop-Event-Handler
+#Server version latest or stable
+latest
+#Rocket Reset Counter
+50

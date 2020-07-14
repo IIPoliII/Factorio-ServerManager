@@ -1,0 +1,510 @@
+   0.003 2020-02-06 04:02:09; Factorio 0.18.3 (build 49258, linux64, headless)
+   0.027 Operating system: Linux (Ubuntu 19.10)
+   0.027 Program arguments: "../bin/x64/factorio" "--start-server" "../saves/japc.zip" "--server-settings" "../data/fctrserver.json" "--port" "34200" "--rcon-port" "34201" "--rcon-password" <private> 
+   0.027 Read data path: /var/www/panel/server/X1/data
+   0.027 Write data path: /var/www/panel/server/X1 [687081/894644MB]
+   0.027 Binaries path: /var/www/panel/server/X1/bin
+   0.034 System info: [CPU: AMD Ryzen 5 3600 6-Core Processor, 12 cores, RAM: 64335 MB]
+   0.034 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.034 Running in headless mode
+   0.037 Loading mod core 0.0.0 (data.lua)
+   0.076 Loading mod base 0.18.3 (data.lua)
+   0.246 Loading mod base 0.18.3 (data-updates.lua)
+   0.337 Checksum for core: 3958517679
+   0.337 Checksum of base: 2595428403
+   0.463 Prototype list checksum: 4109119676
+   0.486 Info PlayerData.cpp:68: Local player-data.json available, timestamp 1580954451
+   0.486 Info PlayerData.cpp:75: Cloud player-data.json unavailable
+   0.511 Factorio initialised
+   0.535 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/api-login?api_version=4
+   1.321 Info AuthServerConnector.cpp:133: Got token from auth server for username(IIPoliII).
+   1.321 Info ServerMultiplayerManager.cpp:773: updateTick(4294967295) changing state from(Ready) to(PreparedToHostGame)
+   1.321 Info ServerMultiplayerManager.cpp:773: updateTick(4294967295) changing state from(PreparedToHostGame) to(CreatingGame)
+   1.321 Loading map /var/www/panel/server/X1/ServerManager/../saves/japc.zip: 114079126 bytes.
+   1.333 Loading level.dat: 374499449 bytes.
+   1.340 Info Scenario.cpp:187: Map version 0.18.3-0
+   8.758 Loading script.dat: 1277228 bytes.
+   8.763 Checksum for script /var/www/panel/server/X1/temp/currently-playing/control.lua: 3895579611
+   8.889 Info UDPSocket.cpp:27: Opening socket at (IP ADDR:({0.0.0.0:34200}))
+   8.889 Hosting game at IP ADDR:({0.0.0.0:34200})
+   8.911 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=4
+   9.009 Info AuthServerConnector.cpp:66: Obtained serverPadlock for serverHash (1wgm0b77dMFhB5jY6e1HQGyiI4XRR7Yb) from the auth server.
+   9.009 Info ServerMultiplayerManager.cpp:773: updateTick(60897015) changing state from(CreatingGame) to(InGame)
+   9.051 Info ServerRouter.cpp:614: Asking pingpong servers (pingpong1.factorio.com:34197, pingpong2.factorio.com:34197, pingpong3.factorio.com:34197, pingpong4.factorio.com:34197) for own address
+   9.051 Info UDPSocket.cpp:39: Opening socket for broadcast
+   9.169 Info ServerRouter.cpp:497: Own address is IP ADDR:({46.4.121.74:34200}) (confirmed by pingpong1)
+   9.169 Info ServerRouter.cpp:497: Own address is IP ADDR:({46.4.121.74:34200}) (confirmed by pingpong3)
+   9.325 Info ServerRouter.cpp:497: Own address is IP ADDR:({46.4.121.74:34200}) (confirmed by pingpong4)
+   9.699 Info MatchingServer.cpp:114: Matching server game `6778099` has been created.
+   9.719 Info ServerMultiplayerManager.cpp:705: Matching server connection resumed
+ 771.921 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+ 779.163 Info AppManager.cpp:398: Saving finished
+ 779.163 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+ 786.331 Info AppManager.cpp:398: Saving finished
+ 984.051 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({69.174.156.205:22738}))
+ 984.051 Refusing connection for address (IP ADDR:({69.174.156.205:22738})), username (Mythical_Hero_Ayylmao). UserVerificationMissing
+ 984.540 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({69.174.156.205:22768}))
+ 984.540 Info ServerRouter.cpp:425: Replying to connectionRequest for address(IP ADDR:({69.174.156.205:22768})).
+ 984.562 Info ServerMultiplayerManager.cpp:773: updateTick(60940868) changing state from(InGame) to(InGameSavingMap)
+ 991.048 Info ServerMultiplayerManager.cpp:988: UpdateTick(60940868) Serving map(/var/www/panel/server/X1/temp/mp-save-0.zip) for peer(1) size(115249427) crc(3117043181)
+ 991.048 Info ServerMultiplayerManager.cpp:773: updateTick(60940868) changing state from(InGameSavingMap) to(InGame)
+1080.313 Info GameActionHandler.cpp:4181: UpdateTick (60944888) processed PlayerJoinGame peerID(1) playerIndex(1) mode(connect) 
+1672.353 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+1679.628 Info AppManager.cpp:398: Saving finished
+1679.628 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+1686.781 Info AppManager.cpp:398: Saving finished
+2571.797 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+2579.044 Info AppManager.cpp:398: Saving finished
+2579.044 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+2586.102 Info AppManager.cpp:398: Saving finished
+3472.288 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+3479.814 Info AppManager.cpp:398: Saving finished
+3479.814 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+3487.026 Info AppManager.cpp:398: Saving finished
+4372.179 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+4379.553 Info AppManager.cpp:398: Saving finished
+4379.553 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+4386.736 Info AppManager.cpp:398: Saving finished
+5271.745 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+5279.022 Info AppManager.cpp:398: Saving finished
+5279.022 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+5286.132 Info AppManager.cpp:398: Saving finished
+6172.121 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+6179.375 Info AppManager.cpp:398: Saving finished
+6179.375 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+6186.543 Info AppManager.cpp:398: Saving finished
+7071.845 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+7079.188 Info AppManager.cpp:398: Saving finished
+7079.188 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+7086.325 Info AppManager.cpp:398: Saving finished
+7972.240 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+7979.557 Info AppManager.cpp:398: Saving finished
+7979.557 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+7986.693 Info AppManager.cpp:398: Saving finished
+8871.716 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+8879.096 Info AppManager.cpp:398: Saving finished
+8879.096 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+8886.273 Info AppManager.cpp:398: Saving finished
+9609.916 Info ServerMultiplayerManager.cpp:1039: Disconnect notification for peer (1)
+9771.412 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+9778.914 Info AppManager.cpp:398: Saving finished
+9778.914 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+9786.219 Info AppManager.cpp:398: Saving finished
+10420.887 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({69.174.156.205:22739}))
+10420.887 Refusing connection for address (IP ADDR:({69.174.156.205:22739})), username (Mythical_Hero_Ayylmao). UserVerificationMissing
+10421.326 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({69.174.156.205:22699}))
+10421.326 Info ServerRouter.cpp:425: Replying to connectionRequest for address(IP ADDR:({69.174.156.205:22699})).
+10421.349 Info ServerMultiplayerManager.cpp:773: updateTick(61364135) changing state from(InGame) to(InGameSavingMap)
+10427.938 Info ServerMultiplayerManager.cpp:988: UpdateTick(61364135) Serving map(/var/www/panel/server/X1/temp/mp-save-1.zip) for peer(2) size(119416777) crc(3374390109)
+10427.938 Info ServerMultiplayerManager.cpp:773: updateTick(61364135) changing state from(InGameSavingMap) to(InGame)
+10529.929 Info GameActionHandler.cpp:4181: UpdateTick (61368725) processed PlayerJoinGame peerID(2) playerIndex(1) mode(connect) 
+10672.379 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+10679.868 Info AppManager.cpp:398: Saving finished
+10679.868 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+10687.063 Info AppManager.cpp:398: Saving finished
+11572.003 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+11579.635 Info AppManager.cpp:398: Saving finished
+11579.635 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+11587.067 Info AppManager.cpp:398: Saving finished
+12471.768 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+12479.398 Info AppManager.cpp:398: Saving finished
+12479.398 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+12486.817 Info AppManager.cpp:398: Saving finished
+13372.431 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+13380.077 Info AppManager.cpp:398: Saving finished
+13380.077 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+13387.497 Info AppManager.cpp:398: Saving finished
+14272.461 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+14280.030 Info AppManager.cpp:398: Saving finished
+14280.030 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+14287.390 Info AppManager.cpp:398: Saving finished
+15171.990 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+15179.389 Info AppManager.cpp:398: Saving finished
+15179.389 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+15186.593 Info AppManager.cpp:398: Saving finished
+16072.085 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+16079.613 Info AppManager.cpp:398: Saving finished
+16079.613 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+16087.060 Info AppManager.cpp:398: Saving finished
+16972.147 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+16979.628 Info AppManager.cpp:398: Saving finished
+16979.628 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+16986.950 Info AppManager.cpp:398: Saving finished
+17872.115 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+17879.693 Info AppManager.cpp:398: Saving finished
+17879.693 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+17887.005 Info AppManager.cpp:398: Saving finished
+18771.736 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+18779.245 Info AppManager.cpp:398: Saving finished
+18779.245 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+18786.550 Info AppManager.cpp:398: Saving finished
+19672.479 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+19679.983 Info AppManager.cpp:398: Saving finished
+19679.983 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+19687.288 Info AppManager.cpp:398: Saving finished
+19704.505 Info ServerMultiplayerManager.cpp:1039: Disconnect notification for peer (2)
+20572.063 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+20579.771 Info AppManager.cpp:398: Saving finished
+20579.771 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+20587.194 Info AppManager.cpp:398: Saving finished
+21472.538 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+21480.460 Info AppManager.cpp:398: Saving finished
+21480.460 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+21488.024 Info AppManager.cpp:398: Saving finished
+21563.098 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({69.174.156.205:22714}))
+21563.098 Refusing connection for address (IP ADDR:({69.174.156.205:22714})), username (Mythical_Hero_Ayylmao). UserVerificationMissing
+21563.573 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({69.174.156.205:22555}))
+21563.573 Info ServerRouter.cpp:425: Replying to connectionRequest for address(IP ADDR:({69.174.156.205:22555})).
+21563.596 Info ServerMultiplayerManager.cpp:773: updateTick(61854080) changing state from(InGame) to(InGameSavingMap)
+21570.215 Info ServerMultiplayerManager.cpp:988: UpdateTick(61854080) Serving map(/var/www/panel/server/X1/temp/mp-save-2.zip) for peer(3) size(117323326) crc(151383349)
+21570.215 Info ServerMultiplayerManager.cpp:773: updateTick(61854080) changing state from(InGameSavingMap) to(InGame)
+21682.207 Info GameActionHandler.cpp:4181: UpdateTick (61859008) processed PlayerJoinGame peerID(3) playerIndex(1) mode(connect) 
+22024.984 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({171.223.146.218:1120}))
+22024.984 Refusing connection for address (IP ADDR:({171.223.146.218:1120})), username (nodice1982). UserVerificationMissing
+22027.630 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({171.223.146.218:1128}))
+22027.630 Info ServerRouter.cpp:425: Replying to connectionRequest for address(IP ADDR:({171.223.146.218:1128})).
+22027.652 Info ServerMultiplayerManager.cpp:773: updateTick(61874422) changing state from(InGame) to(InGameSavingMap)
+22034.289 Info ServerMultiplayerManager.cpp:988: UpdateTick(61874422) Serving map(/var/www/panel/server/X1/temp/mp-save-3.zip) for peer(4) size(119290801) crc(704059920)
+22034.289 Info ServerMultiplayerManager.cpp:773: updateTick(61874422) changing state from(InGameSavingMap) to(InGame)
+22343.371 Info ServerMultiplayerManager.cpp:1039: Disconnect notification for peer (4)
+22343.675 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.675 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.697 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.719 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.744 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.766 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.793 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.814 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.839 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.862 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.887 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.910 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.932 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.954 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22343.978 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.002 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.024 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.045 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.068 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.094 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.094 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.117 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.141 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.163 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.185 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22344.208 Warning ServerSynchronizer.cpp:53: Received RequestForHeartbeatWhenDisconnectingMessage from peer (4) with wrong nextSequenceNumber (776849999) while (776849998) was expected
+22372.001 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+22379.688 Info AppManager.cpp:398: Saving finished
+22379.688 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+22387.234 Info AppManager.cpp:398: Saving finished
+23272.092 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+23279.668 Info AppManager.cpp:398: Saving finished
+23279.668 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+23287.169 Info AppManager.cpp:398: Saving finished
+24171.805 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+24179.360 Info AppManager.cpp:398: Saving finished
+24179.360 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+24186.884 Info AppManager.cpp:398: Saving finished
+25072.167 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+25079.760 Info AppManager.cpp:398: Saving finished
+25079.760 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+25087.200 Info AppManager.cpp:398: Saving finished
+25953.224 Info ServerMultiplayerManager.cpp:1039: Disconnect notification for peer (3)
+25972.319 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+25979.894 Info AppManager.cpp:398: Saving finished
+25979.894 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+25987.397 Info AppManager.cpp:398: Saving finished
+26871.723 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+26879.409 Info AppManager.cpp:398: Saving finished
+26879.409 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+26886.856 Info AppManager.cpp:398: Saving finished
+27772.060 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+27779.697 Info AppManager.cpp:398: Saving finished
+27779.697 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+27787.143 Info AppManager.cpp:398: Saving finished
+28672.028 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+28679.854 Info AppManager.cpp:398: Saving finished
+28679.854 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+28687.290 Info AppManager.cpp:398: Saving finished
+29571.561 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+29579.078 Info AppManager.cpp:398: Saving finished
+29579.078 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+29586.403 Info AppManager.cpp:398: Saving finished
+30472.461 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+30480.168 Info AppManager.cpp:398: Saving finished
+30480.168 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+30487.697 Info AppManager.cpp:398: Saving finished
+31372.435 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+31380.149 Info AppManager.cpp:398: Saving finished
+31380.149 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+31387.736 Info AppManager.cpp:398: Saving finished
+32272.177 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+32279.992 Info AppManager.cpp:398: Saving finished
+32279.992 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+32287.532 Info AppManager.cpp:398: Saving finished
+33171.724 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+33179.548 Info AppManager.cpp:398: Saving finished
+33179.548 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+33187.195 Info AppManager.cpp:398: Saving finished
+34071.816 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+34079.684 Info AppManager.cpp:398: Saving finished
+34079.684 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+34087.314 Info AppManager.cpp:398: Saving finished
+34971.862 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+34979.485 Info AppManager.cpp:398: Saving finished
+34979.486 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+34986.951 Info AppManager.cpp:398: Saving finished
+35871.719 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+35879.406 Info AppManager.cpp:398: Saving finished
+35879.406 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+35886.927 Info AppManager.cpp:398: Saving finished
+36771.513 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+36779.339 Info AppManager.cpp:398: Saving finished
+36779.339 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+36786.888 Info AppManager.cpp:398: Saving finished
+37671.960 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+37679.631 Info AppManager.cpp:398: Saving finished
+37679.631 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+37687.188 Info AppManager.cpp:398: Saving finished
+38572.005 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+38579.830 Info AppManager.cpp:398: Saving finished
+38579.830 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+38587.424 Info AppManager.cpp:398: Saving finished
+39471.860 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+39479.691 Info AppManager.cpp:398: Saving finished
+39479.691 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+39487.390 Info AppManager.cpp:398: Saving finished
+40371.399 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+40379.385 Info AppManager.cpp:398: Saving finished
+40379.385 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+40387.017 Info AppManager.cpp:398: Saving finished
+41271.963 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+41279.907 Info AppManager.cpp:398: Saving finished
+41279.907 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+41287.581 Info AppManager.cpp:398: Saving finished
+42171.815 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+42179.633 Info AppManager.cpp:398: Saving finished
+42179.633 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+42187.331 Info AppManager.cpp:398: Saving finished
+42940.938 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({141.24.41.36:62817}))
+42940.938 Refusing connection for address (IP ADDR:({141.24.41.36:62817})), username (ColtSeavers). UserVerificationMissing
+42941.537 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({141.24.41.36:58913}))
+42941.537 Info ServerRouter.cpp:425: Replying to connectionRequest for address(IP ADDR:({141.24.41.36:58913})).
+42941.561 Info ServerMultiplayerManager.cpp:773: updateTick(62785232) changing state from(InGame) to(InGameSavingMap)
+42948.370 Info ServerMultiplayerManager.cpp:988: UpdateTick(62785232) Serving map(/var/www/panel/server/X1/temp/mp-save-4.zip) for peer(5) size(120708629) crc(940203456)
+42948.370 Info ServerMultiplayerManager.cpp:773: updateTick(62785232) changing state from(InGameSavingMap) to(InGame)
+43072.259 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+43080.326 Info AppManager.cpp:398: Saving finished
+43080.326 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+43088.100 Info AppManager.cpp:398: Saving finished
+43215.863 Info ServerMultiplayerManager.cpp:1039: Disconnect notification for peer (5)
+43972.012 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+43979.854 Info AppManager.cpp:398: Saving finished
+43979.854 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+43987.543 Info AppManager.cpp:398: Saving finished
+44872.300 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+44880.181 Info AppManager.cpp:398: Saving finished
+44880.181 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+44887.754 Info AppManager.cpp:398: Saving finished
+45772.424 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+45780.176 Info AppManager.cpp:398: Saving finished
+45780.176 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+45787.859 Info AppManager.cpp:398: Saving finished
+46672.183 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+46680.204 Info AppManager.cpp:398: Saving finished
+46680.204 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+46687.941 Info AppManager.cpp:398: Saving finished
+47571.878 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+47579.868 Info AppManager.cpp:398: Saving finished
+47579.868 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+47587.443 Info AppManager.cpp:398: Saving finished
+48472.436 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+48480.348 Info AppManager.cpp:398: Saving finished
+48480.348 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+48488.050 Info AppManager.cpp:398: Saving finished
+49371.756 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+49379.533 Info AppManager.cpp:398: Saving finished
+49379.533 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+49387.254 Info AppManager.cpp:398: Saving finished
+50272.421 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+50280.435 Info AppManager.cpp:398: Saving finished
+50280.435 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+50288.223 Info AppManager.cpp:398: Saving finished
+51171.546 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+51179.506 Info AppManager.cpp:398: Saving finished
+51179.506 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+51187.316 Info AppManager.cpp:398: Saving finished
+52071.902 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+52079.760 Info AppManager.cpp:398: Saving finished
+52079.760 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+52087.548 Info AppManager.cpp:398: Saving finished
+52971.520 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+52979.467 Info AppManager.cpp:398: Saving finished
+52979.467 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+52987.257 Info AppManager.cpp:398: Saving finished
+53872.121 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+53880.210 Info AppManager.cpp:398: Saving finished
+53880.210 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+53888.071 Info AppManager.cpp:398: Saving finished
+54695.658 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({87.214.150.110:60865}))
+54695.658 Refusing connection for address (IP ADDR:({87.214.150.110:60865})), username (T-A-R). UserVerificationMissing
+54696.536 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({87.214.150.110:59478}))
+54696.536 Info ServerRouter.cpp:425: Replying to connectionRequest for address(IP ADDR:({87.214.150.110:59478})).
+54696.558 Info ServerMultiplayerManager.cpp:773: updateTick(63293289) changing state from(InGame) to(InGameSavingMap)
+54703.274 Info ServerMultiplayerManager.cpp:988: UpdateTick(63293289) Serving map(/var/www/panel/server/X1/temp/mp-save-5.zip) for peer(6) size(119846469) crc(633129750)
+54703.274 Info ServerMultiplayerManager.cpp:773: updateTick(63293289) changing state from(InGameSavingMap) to(InGame)
+54772.224 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+54780.115 Info AppManager.cpp:398: Saving finished
+54780.115 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+54787.709 Info AppManager.cpp:398: Saving finished
+54826.295 Info ServerMultiplayerManager.cpp:1039: Disconnect notification for peer (6)
+55671.763 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+55679.763 Info AppManager.cpp:398: Saving finished
+55679.763 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+55687.509 Info AppManager.cpp:398: Saving finished
+56572.112 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+56579.966 Info AppManager.cpp:398: Saving finished
+56579.967 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+56587.669 Info AppManager.cpp:398: Saving finished
+57471.617 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+57479.510 Info AppManager.cpp:398: Saving finished
+57479.510 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+57487.189 Info AppManager.cpp:398: Saving finished
+58372.120 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+58379.995 Info AppManager.cpp:398: Saving finished
+58379.995 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+58387.806 Info AppManager.cpp:398: Saving finished
+59272.299 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+59280.387 Info AppManager.cpp:398: Saving finished
+59280.387 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+59288.091 Info AppManager.cpp:398: Saving finished
+60171.438 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+60179.430 Info AppManager.cpp:398: Saving finished
+60179.430 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+60187.236 Info AppManager.cpp:398: Saving finished
+61071.750 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+61079.804 Info AppManager.cpp:398: Saving finished
+61079.804 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+61087.601 Info AppManager.cpp:398: Saving finished
+61971.470 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+61979.533 Info AppManager.cpp:398: Saving finished
+61979.533 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+61987.232 Info AppManager.cpp:398: Saving finished
+62872.135 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+62880.169 Info AppManager.cpp:398: Saving finished
+62880.169 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+62887.959 Info AppManager.cpp:398: Saving finished
+63772.011 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+63780.091 Info AppManager.cpp:398: Saving finished
+63780.091 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+63787.826 Info AppManager.cpp:398: Saving finished
+64672.396 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+64680.285 Info AppManager.cpp:398: Saving finished
+64680.285 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+64688.027 Info AppManager.cpp:398: Saving finished
+65571.912 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+65579.820 Info AppManager.cpp:398: Saving finished
+65579.820 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+65587.493 Info AppManager.cpp:398: Saving finished
+66471.973 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+66479.838 Info AppManager.cpp:398: Saving finished
+66479.838 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+66487.548 Info AppManager.cpp:398: Saving finished
+67371.668 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+67379.666 Info AppManager.cpp:398: Saving finished
+67379.666 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+67387.331 Info AppManager.cpp:398: Saving finished
+68271.769 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+68279.825 Info AppManager.cpp:398: Saving finished
+68279.825 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+68287.510 Info AppManager.cpp:398: Saving finished
+69171.880 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+69179.707 Info AppManager.cpp:398: Saving finished
+69179.707 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+69187.352 Info AppManager.cpp:398: Saving finished
+70071.874 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+70080.053 Info AppManager.cpp:398: Saving finished
+70080.053 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+70087.815 Info AppManager.cpp:398: Saving finished
+70971.466 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+70979.462 Info AppManager.cpp:398: Saving finished
+70979.462 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+70987.306 Info AppManager.cpp:398: Saving finished
+71871.901 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+71880.097 Info AppManager.cpp:398: Saving finished
+71880.097 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+71887.891 Info AppManager.cpp:398: Saving finished
+72771.360 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+72779.474 Info AppManager.cpp:398: Saving finished
+72779.474 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+72787.358 Info AppManager.cpp:398: Saving finished
+72853.696 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({69.174.156.205:23014}))
+72853.696 Refusing connection for address (IP ADDR:({69.174.156.205:23014})), username (Mythical_Hero_Ayylmao). UserVerificationMissing
+72854.157 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({69.174.156.205:22863}))
+72854.157 Info ServerRouter.cpp:425: Replying to connectionRequest for address(IP ADDR:({69.174.156.205:22863})).
+72854.178 Info ServerMultiplayerManager.cpp:773: updateTick(64107978) changing state from(InGame) to(InGameSavingMap)
+72861.151 Info ServerMultiplayerManager.cpp:988: UpdateTick(64107978) Serving map(/var/www/panel/server/X1/temp/mp-save-6.zip) for peer(7) size(119928778) crc(56688698)
+72861.151 Info ServerMultiplayerManager.cpp:773: updateTick(64107978) changing state from(InGameSavingMap) to(InGame)
+72941.263 Info GameActionHandler.cpp:4181: UpdateTick (64111586) processed PlayerJoinGame peerID(7) playerIndex(1) mode(connect) 
+73672.127 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+73680.178 Info AppManager.cpp:398: Saving finished
+73680.178 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+73687.982 Info AppManager.cpp:398: Saving finished
+74572.288 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+74580.181 Info AppManager.cpp:398: Saving finished
+74580.181 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+74587.822 Info AppManager.cpp:398: Saving finished
+75472.382 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+75480.549 Info AppManager.cpp:398: Saving finished
+75480.549 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+75488.192 Info AppManager.cpp:398: Saving finished
+76372.177 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+76380.161 Info AppManager.cpp:398: Saving finished
+76380.161 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+76387.865 Info AppManager.cpp:398: Saving finished
+77271.710 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+77279.582 Info AppManager.cpp:398: Saving finished
+77279.582 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+77287.247 Info AppManager.cpp:398: Saving finished
+78172.163 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+78180.070 Info AppManager.cpp:398: Saving finished
+78180.070 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+78187.740 Info AppManager.cpp:398: Saving finished
+79071.684 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+79079.977 Info AppManager.cpp:398: Saving finished
+79079.977 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+79088.027 Info AppManager.cpp:398: Saving finished
+79971.358 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+79979.406 Info AppManager.cpp:398: Saving finished
+79979.406 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+79987.225 Info AppManager.cpp:398: Saving finished
+80871.893 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+80879.986 Info AppManager.cpp:398: Saving finished
+80879.986 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+80887.899 Info AppManager.cpp:398: Saving finished
+81772.410 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+81780.661 Info AppManager.cpp:398: Saving finished
+81780.661 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+81788.460 Info AppManager.cpp:398: Saving finished
+82671.998 Info AppManager.cpp:395: Saving game as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+82675.070 Quitting: remote-quit.
+82675.071 Info MainLoop.cpp:400: Saving map as /var/www/panel/server/X1/ServerManager/../saves/japc.zip
+82679.054 Info MainLoop.cpp:411: Saving progress: 0.001020%
+82680.054 Info MainLoop.cpp:411: Saving progress: 43.713223%
+82681.054 Info MainLoop.cpp:411: Saving progress: 87.781349%
+82681.366 Info MainLoop.cpp:411: Saving progress: 100.000000%
+82682.276 Info ServerMultiplayerManager.cpp:114: Disconnecting multiplayer connection.
+82682.276 Info ServerMultiplayerManager.cpp:773: updateTick(64548870) changing state from(InGame) to(DisconnectingScheduled)
+82682.310 Info ServerMultiplayerManager.cpp:773: updateTick(64548870) changing state from(DisconnectingScheduled) to(Disconnecting)
+82683.545 Info ServerMultiplayerManager.cpp:773: updateTick(64548870) changing state from(Disconnecting) to(Disconnected)
+82683.545 Info ServerMultiplayerManager.cpp:138: Quitting multiplayer connection.
+82683.545 Info ServerMultiplayerManager.cpp:773: updateTick(64548870) changing state from(Disconnected) to(Closed)
+82685.569 Info HttpSharedState.cpp:54: Downloading https://multiplayer.factorio.com/remove-game/6778099
+82685.684 Info UDPSocket.cpp:218: Closing socket
+82685.684 Info UDPSocket.cpp:248: Socket closed
+82685.684 Info UDPSocket.cpp:218: Closing socket
+82685.684 Info GlobalContext.cpp:710: Waiting for child processes to exit: 27605
+82715.140 Received SIGINT, shutting down
+82715.140 [27605] Received SIGINT, shutting down
+82716.144 Received second SIGINT, terminating immediately
+82716.144 [27605] Received second SIGINT, terminating immediately

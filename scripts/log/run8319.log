@@ -1,0 +1,15 @@
+ HERE ../server/x1 0.17/JoinAndPlayCoop-Scenario-Oarc-0.17
+changeConfigFile.php      launchAdminLoading.php        mcrcon
+changeSchdulerConfig.php  launchLastestLogDownload.php  phpinfo.php
+composer.json             launchLoadingReset.php        playerManager
+composer.lock             launchLoadingServer.php       removeServer.php
+createServerDialog.php    launchOldLogDownload.php      rollBack.php
+createServer.php          launchReset.php               runfactorio-task.sh
+cronmanager               launchScenarioUpdate.php      run.log
+discordLogin.php          launchServer.php              schedulerConfig.php
+factorio-task.sh          log                           sendCommand.php
+getLog.php                logout.php                    tmp
+getRunLog.php             logs                          vendor
+Scenario copied
+Removed temp files
+Finished

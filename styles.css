@@ -1,0 +1,147 @@
+* {
+    font-family: arial;
+    background-color: #2a3752;
+    color: #dcd1d1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: #2a3752;
+}
+
+td {
+    border: 1px solid black;
+}
+
+#ServerChooseForm {
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+
+#LeftTable {
+    text-align: center;
+    vertical-align: middle;
+    table-layout: auto;
+    margin-top: 15%;
+    clear: both;
+    float: left;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-color: #7FDBFF;
+    padding: 5px;
+}
+
+#LeftTable td {
+    border: none;
+    border-bottom: solid;
+}
+
+#LeftTable tr:last-child td {
+    border: none;
+}
+
+#LiveLogTable {
+    overflow-y: scroll;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px;
+    border-color: #7FDBFF;
+    width: 100%;
+}
+
+#LiveLogTable td {
+    border: none;
+}
+
+#feed {
+    height: 75vh;
+    overflow: auto;
+}
+
+#DownloadLog {
+    vertical-align: top;
+}
+
+#CommandBox {
+    width: 99%;
+}
+
+#BodyContainer {
+    padding: 5px;
+}
+
+#TopMenu {
+    margin-right: 19px;
+}
+
+#TopMenu a {
+    margin-right: 2px;
+}
+
+#Menu {
+    margin-top: 2px;
+}
+
+.topright {
+    position: relative;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+#PlayerManagerMainTable {
+    text-align: center;
+    table-layout: auto;
+    margin-top: 1%;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-color: #7FDBFF;
+}
+
+.center {
+    text-align: center;
+}
+
+#LogTable {
+    overflow-y: scroll;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px;
+    border-color: #7FDBFF;
+}
+
+#LoadingCenterImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    /* Half the height */
+    margin-left: -200px;
+}
+
+.discord-logo-btn .fa-discord {
+    background: #fff;
+    background-color: #fff;
+}
+
+.discord-logo-btn:hover .fa-discord, .discord-logo-btn:focus .fa-discord {
+    background: #e6e6e6;
+}

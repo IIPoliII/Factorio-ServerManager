@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c234693ac61d6464d23b6483d741a33f",
+    "packages": [
+        {
+            "name": "xwilarg/discord-oauth2-php",
+            "version": "v1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Xwilarg/Discord-OAuth2-PHP.git",
+                "reference": "524f9fcd75104553981dc60bdda57ecd575c3500"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Xwilarg/Discord-OAuth2-PHP/zipball/524f9fcd75104553981dc60bdda57ecd575c3500",
+                "reference": "524f9fcd75104553981dc60bdda57ecd575c3500",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xwilarg\\Discord\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Xwilarg",
+                    "email": "xwilarg@yahoo.fr"
+                }
+            ],
+            "description": "PHP Library for Discord OAuth2",
+            "keywords": [
+                "discord",
+                "discord-oauth",
+                "oauth2",
+                "oauth2-client"
+            ],
+            "time": "2019-04-21T12:26:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,5 @@
+renamed '../server/X4/tmp/factorioScenarioDownload/0.X.X/JoinAndPlayCoop-Event-Handler/control.lua' -> '../server/X4/scenarios/JoinAndPlayCoop-Scenario/control.lua'
+renamed '../server/X4/tmp/factorioScenarioDownload/0.X.X/JoinAndPlayCoop-Event-Handler/japc-event-handler.lua' -> '../server/X4/scenarios/JoinAndPlayCoop-Scenario/japc-event-handler.lua'
+Scenario copied
+Removed temp files
+Finished

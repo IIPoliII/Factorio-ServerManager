@@ -1,0 +1,16 @@
+renamed '../server/X1/tmp/factorioScenarioDownload///config.lua' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/config.lua'
+renamed '../server/X1/tmp/factorioScenarioDownload///CONTRIBUTING.md' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/CONTRIBUTING.md'
+renamed '../server/X1/tmp/factorioScenarioDownload///control.lua' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/control.lua'
+renamed '../server/X1/tmp/factorioScenarioDownload///docs' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/docs'
+renamed '../server/X1/tmp/factorioScenarioDownload///features' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/features'
+renamed '../server/X1/tmp/factorioScenarioDownload///LICENSE' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/LICENSE'
+renamed '../server/X1/tmp/factorioScenarioDownload///locale' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/locale'
+renamed '../server/X1/tmp/factorioScenarioDownload///map_gen' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/map_gen'
+renamed '../server/X1/tmp/factorioScenarioDownload///map_selection.lua.sample' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/map_selection.lua.sample'
+renamed '../server/X1/tmp/factorioScenarioDownload///README.md' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/README.md'
+renamed '../server/X1/tmp/factorioScenarioDownload///redmew_git_banner.png' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/redmew_git_banner.png'
+renamed '../server/X1/tmp/factorioScenarioDownload///resources' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/resources'
+renamed '../server/X1/tmp/factorioScenarioDownload///utils' -> '../server/X1/scenarios/JoinAndPlayCoop-Scenario/utils'
+Scenario copied
+Removed temp files
+Finished

@@ -1,0 +1,71 @@
+Reset starting sending message to players and waiting 15 seconds
+./factorio-task.sh: line 379: [[: Authentication failed!: syntax error in expression (error token is "failed!")
+If you have errors here it's because the server is probably stoped
+Checking if factorio is still running : 1Checking if factorio is still running : 2Checking if factorio is still running : 3
+Stoped
+Moved the save
+Stoped and changed the env to create the save
+Starting to create new map
+Game was started
+Stoping map gen
+If you have errors here it's because the server is probably stoped
+Checking if factorio is still running : 4Checking if factorio is still running : 5Checking if factorio is still running : 6
+Stoped
+saves/JoinAndPlayCoop-Scenario.zip saves/japc.zip
+Game was started
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+There was an error using rcon trying again.....
+> Connection failed.
+Error 111: Connection refused <
+Connection failed.
+Error 111: Connection refused
+Finished

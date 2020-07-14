@@ -1,0 +1,17 @@
+Reset starting sending message to players and waiting 15 seconds
+./factorio-task.sh: line 379: [[: Authentication failed!: syntax error in expression (error token is "failed!")
+If you have errors here it's because the server is probably stoped
+
+Stoped
+Moved the save
+Stoped and changed the env to create the save
+Starting to create new map
+Game was started
+Stoping map gen
+If you have errors here it's because the server is probably stoped
+
+Stoped
+mv: cannot stat 'saves/JoinAndPlayCoop-Scenario.zip': No such file or directory
+saves/JoinAndPlayCoop-Scenario.zip saves/japc.zip
+Game was started
+Finished

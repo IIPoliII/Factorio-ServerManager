@@ -1,0 +1,12 @@
+renamed '../server/x1/tmp/factorioScenarioDownload/0.17/JoinAndPlayCoop-Scenario-Oarc-0.17/config.lua' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/config.lua'
+renamed '../server/x1/tmp/factorioScenarioDownload/0.17/JoinAndPlayCoop-Scenario-Oarc-0.17/control.lua' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/control.lua'
+renamed '../server/x1/tmp/factorioScenarioDownload/0.17/JoinAndPlayCoop-Scenario-Oarc-0.17/japc-event-handler.lua' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/japc-event-handler.lua'
+renamed '../server/x1/tmp/factorioScenarioDownload/0.17/JoinAndPlayCoop-Scenario-Oarc-0.17/lib' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/lib'
+renamed '../server/x1/tmp/factorioScenarioDownload/0.17/JoinAndPlayCoop-Scenario-Oarc-0.17/LICENSE' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/LICENSE'
+renamed '../server/x1/tmp/factorioScenarioDownload/0.17/JoinAndPlayCoop-Scenario-Oarc-0.17/locale' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/locale'
+renamed '../server/x1/tmp/factorioScenarioDownload/0.17/JoinAndPlayCoop-Scenario-Oarc-0.17/MapGen' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/MapGen'
+renamed '../server/x1/tmp/factorioScenarioDownload/0.17/JoinAndPlayCoop-Scenario-Oarc-0.17/MapSettigns' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/MapSettigns'
+renamed '../server/x1/tmp/factorioScenarioDownload/0.17/JoinAndPlayCoop-Scenario-Oarc-0.17/README.md' -> '../server/x1/scenarios/JoinAndPlayCoop-Scenario/README.md'
+Scenario copied
+Removed temp files
+Finished
