@@ -71,7 +71,7 @@
             $IdBan = `mysql -sN --user=$(echo $DBUser) --password=$(echo $DBPassword) --host $(echo $DBServer) -P $(echo $DBPort) --database=$(echo $DB) -e "SELECT Id FROM Ban WHERE FKPlayerId = ${IdPlayer}"`;
 
             if ($IdBan != '') {
-              echo "User was already banned changed the resaon<br>";
+              echo "User was already banned changed the reason<br>";
               $UpdateBan = 'UPDATE Ban
 			      SET Reason = "' . $reason . '"
 			      WHERE Id = "' . $IdBan . '"';
@@ -83,8 +83,41 @@
               }
             } else {
               echo "User wasn't banned adding him and the reason to the database !<br>";
-              $InsertBan = 'INSERT INTO Ban (FKPlayerId, Reason)
-			VALUES ("' . $IdPlayer . '", "' . $reason . '")';
+              $InsertBan = 'INSERT INTO Ban (FKPlayerId, Reason) VALUES ("' . $IdPlayer . '", "' . $reason . '")';
+
+              if ($conn->query($InsertBan) === TRUE) {
+                echo "New record created successfully<br>";
+              } else {
+                echo "Error: " . $InsertBan . "<br>" . $conn->error;
+              }
+            }
+          }  else {
+            $InsertPlayer = 'INSERT INTO Players (PlayerName, IsAdmin) VALUES ("' . $player . '", "0")';
+
+            if ($conn->query($InsertPlayer) === TRUE) {
+              echo "New record created successfully<br>";
+            } else {
+              echo "Error: " . $InsertPlayer . "<br>" . $conn->error;
+            }
+
+            $IdPlayer = `mysql -sN --user=$(echo $DBUser) --password=$(echo $DBPassword) --host $(echo $DBServer) -P $(echo $DBPort) --database=$(echo $DB) -e 'SELECT Id FROM Players WHERE PlayerName = "'$player'"'`;
+
+            $IdBan = `mysql -sN --user=$(echo $DBUser) --password=$(echo $DBPassword) --host $(echo $DBServer) -P $(echo $DBPort) --database=$(echo $DB) -e "SELECT Id FROM Ban WHERE FKPlayerId = ${IdPlayer}"`;
+
+            if ($IdBan != '') {
+              echo "User was already banned changed the reason<br>";
+              $UpdateBan = 'UPDATE Ban
+			      SET Reason = "' . $reason . '"
+			      WHERE Id = "' . $IdBan . '"';
+
+              if ($conn->query($UpdateBan) === TRUE) {
+                echo "New record created successfully<br>";
+              } else {
+                echo "Error: " . $UpdateBan . "<br>" . $conn->error;
+              }
+            } else {
+              echo "User wasn't banned adding him and the reason to the database !<br>";
+              $InsertBan = 'INSERT INTO Ban (FKPlayerId, Reason) VALUES ("' . $IdPlayer . '", "' . $reason . '")';
 
               if ($conn->query($InsertBan) === TRUE) {
                 echo "New record created successfully<br>";

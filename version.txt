@@ -1,3 +1,8 @@
+0.2.9
+* Added a new button for banning a user globally that didn't joined the server
+* Added the map-gen-settings parameter
+
+
 0.2.8
 *Fix the script for player playtime to add a check to prevent player hours to be reseted
 *Try to fix to not insert multiple times the matierial

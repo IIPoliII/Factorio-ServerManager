@@ -135,6 +135,9 @@
         $serverManagerMapSettigns = `sed -n '7p' server/${server}/ServerManager/.env | sed 's/"//g' | cut -c 20- | grep -o 'map-settings.*' | cut -f1,2 -d' ' | awk '{gsub("map-settings ", "");print}'`;
         $serverManagerMapSettigns = substr($serverManagerMapSettigns, 0, -1);
 
+        $serverManagerMapGenSettigns = `sed -n '7p' server/${server}/ServerManager/.env | sed 's/"//g' | cut -c 20- | grep -o 'map-gen-settings.*' | cut -f1,2 -d' ' | awk '{gsub("map-gen-settings ", "");print}'`;
+        $serverManagerMapGenSettigns = substr($serverManagerMapGenSettigns, 0, -1);
+
         $serverManagerPort = `sed -n '7p' server/${server}/ServerManager/.env | sed 's/"//g' | cut -c 20- | grep -o 'port .*' | cut -f1,2 -d' ' | awk '{gsub("port ", "");print}'`;
         $serverManagerPort = substr($serverManagerPort, 0, -1);
 
@@ -711,6 +714,12 @@
                         echo "Map settigns path : <br>";
                         echo '<input type="text" name="serverManagerMapSettigns" value="';
                         echo "$serverManagerMapSettigns";
+                        echo '">';
+                        echo "<br>";
+
+                        echo "Map gen settigns path : <br>";
+                        echo '<input type="text" name="serverManagerMapGenSettigns" value="';
+                        echo "$serverManagerMapGenSettigns";
                         echo '">';
                         echo "<br>";
 
