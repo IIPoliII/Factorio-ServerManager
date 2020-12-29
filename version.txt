@@ -1,3 +1,7 @@
+0.2.10
+* Fix the map-gen-settings
+* Fix the map-settings
+
 0.2.9
 * Added a new button for banning a user globally that didn't joined the server
 * Added the map-gen-settings parameter

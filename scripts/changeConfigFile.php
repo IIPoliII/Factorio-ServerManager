@@ -381,15 +381,19 @@
 		$serverManagerExecutable = 'Executable = "../bin/x64/factorio"';
 
 		if (empty($serverManagerMapSettigns)) {
-			$serverManagerLaunchParameters = 'LaunchParameters = "--start-server ../saves/japc.zip --server-settings ../data/fctrserver.json --map-settings ' . $serverManagerMapSettigns .  ' --port ' . $serverManagerPort . ' --rcon-port ' . $serverManagerRconPort . ' --rcon-password ' . $serverManagerRconPassword . '"';
-		} else {
 			$serverManagerLaunchParameters = 'LaunchParameters = "--start-server ../saves/japc.zip --server-settings ../data/fctrserver.json --port ' . $serverManagerPort . ' --rcon-port ' . $serverManagerRconPort . ' --rcon-password ' . $serverManagerRconPassword . '"';
-		}
-
-		if (empty($serverManagerMapGenSettigns)) {
-			$serverManagerLaunchParametersCreate = 'LaunchParameters = "--start-server-load-scenario JoinAndPlayCoop-Scenario --map-gen-settings ' . $serverManagerMapGenSettigns . ' --port ' . $serverManagerPort . ' --rcon-port ' . $serverManagerRconPort . ' --rcon-password ' . $serverManagerRconPassword . '"';
+			if (empty($serverManagerMapGenSettigns)) {
+				$serverManagerLaunchParametersCreate = 'LaunchParameters = "--start-server-load-scenario JoinAndPlayCoop-Scenario --port ' . $serverManagerPort . ' --rcon-port ' . $serverManagerRconPort . ' --rcon-password ' . $serverManagerRconPassword . '"';
+			} else {
+				$serverManagerLaunchParametersCreate = 'LaunchParameters = "--start-server-load-scenario JoinAndPlayCoop-Scenario --map-gen-settings ' . $serverManagerMapGenSettigns . ' --port ' . $serverManagerPort . ' --rcon-port ' . $serverManagerRconPort . ' --rcon-password ' . $serverManagerRconPassword . '"';
+			}
 		} else {
-			$serverManagerLaunchParametersCreate = 'LaunchParameters = "--start-server-load-scenario JoinAndPlayCoop-Scenario --port ' . $serverManagerPort . ' --rcon-port ' . $serverManagerRconPort . ' --rcon-password ' . $serverManagerRconPassword . '"';
+			$serverManagerLaunchParameters = 'LaunchParameters = "--start-server ../saves/japc.zip --server-settings ../data/fctrserver.json --map-settings ' . $serverManagerMapSettigns .  ' --port ' . $serverManagerPort . ' --rcon-port ' . $serverManagerRconPort . ' --rcon-password ' . $serverManagerRconPassword . '"';
+			if (empty($serverManagerMapGenSettigns)) {
+				$serverManagerLaunchParametersCreate = 'LaunchParameters = "--start-server-load-scenario JoinAndPlayCoop-Scenario --map-settings ' . $serverManagerMapSettigns .  ' --port ' . $serverManagerPort . ' --rcon-port ' . $serverManagerRconPort . ' --rcon-password ' . $serverManagerRconPassword . '"';
+			} else {
+				$serverManagerLaunchParametersCreate = 'LaunchParameters = "--start-server-load-scenario JoinAndPlayCoop-Scenario --map-settings ' . $serverManagerMapSettigns .  ' --map-gen-settings ' . $serverManagerMapGenSettigns . ' --port ' . $serverManagerPort . ' --rcon-port ' . $serverManagerRconPort . ' --rcon-password ' . $serverManagerRconPassword . '"';
+			}
 		}
 
 		$serverManagerAdmins = 'AdminIDs = "' . $serverManagerAdmins . '"';

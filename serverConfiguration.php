@@ -1,4 +1,4 @@
-<!doctype html>
+        <!doctype html>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
@@ -135,7 +135,7 @@
         $serverManagerMapSettigns = `sed -n '7p' server/${server}/ServerManager/.env | sed 's/"//g' | cut -c 20- | grep -o 'map-settings.*' | cut -f1,2 -d' ' | awk '{gsub("map-settings ", "");print}'`;
         $serverManagerMapSettigns = substr($serverManagerMapSettigns, 0, -1);
 
-        $serverManagerMapGenSettigns = `sed -n '7p' server/${server}/ServerManager/.env | sed 's/"//g' | cut -c 20- | grep -o 'map-gen-settings.*' | cut -f1,2 -d' ' | awk '{gsub("map-gen-settings ", "");print}'`;
+        $serverManagerMapGenSettigns = `sed -n '7p' server/${server}/ServerManager/.createenv | sed 's/"//g' | cut -c 20- | grep -o 'map-gen-settings.*' | cut -f1,2 -d' ' | awk '{gsub("map-gen-settings ", "");print}'`;
         $serverManagerMapGenSettigns = substr($serverManagerMapGenSettigns, 0, -1);
 
         $serverManagerPort = `sed -n '7p' server/${server}/ServerManager/.env | sed 's/"//g' | cut -c 20- | grep -o 'port .*' | cut -f1,2 -d' ' | awk '{gsub("port ", "");print}'`;
