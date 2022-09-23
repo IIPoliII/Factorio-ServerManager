@@ -14,9 +14,9 @@ $serverpath  = "../server/$server";
 
 //Get the server status
 
-$GameStateDown = `curl -s -X GET -H "Content-type: application/json" -H "Accept: application/json" "https://multiplayer.factorio.com/get-game-details/9999999999999"`;
+$GameStateDown = `curl -s -X GET -H "Accept: application/json" "https://multiplayer.factorio.com/get-game-details/9999999999999"`;
 $Servertoken = `grep "Matching server game" "${serverpath}/factorio-current.log" 2> /dev/null | awk '{print $7}' | tail -1 | tail -c +2 | head -c -2`;
-$ServerAPI = `curl -s -X GET -H "Content-type: application/json" -H "Accept: application/json" "https://multiplayer.factorio.com/get-game-details/${Servertoken}"`;
+$ServerAPI = `curl -s -X GET -H "Accept: application/json" "https://multiplayer.factorio.com/get-game-details/${Servertoken}"`;
 
 $ServerVersion = `grep "Loading mod base" ${serverpath}/factorio-current.log 2> /dev/null | awk '{print $5}' | tail -1`;
 
