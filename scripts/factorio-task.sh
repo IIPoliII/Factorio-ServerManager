@@ -443,7 +443,7 @@ EOF
 				runRconMessage "Saving a last time .... "
 				runRcon "/server-save"
 
-				sleep 15s
+				sleep 20s
 				stopForReset
 				sleep 1s
 
@@ -461,7 +461,7 @@ EOF
 				echo "Starting to create new map"
 				startForReset
 
-				sleep 20s
+				sleep 60s
 
 				echo "Stoping map gen"
 				stopForReset
