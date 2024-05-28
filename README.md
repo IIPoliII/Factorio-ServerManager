@@ -92,6 +92,10 @@ I putted my own `opcache.memory_consumption=512` to 512mb for more files cache t
 
 
 
+0.2.11
+* Fix updater
+* Use Factorio new API for update checks, with JQ
+
 0.2.10
 * Fix the map-gen-settings
 * Fix the map-settings
@@ -99,7 +103,6 @@ I putted my own `opcache.memory_consumption=512` to 512mb for more files cache t
 0.2.9
 * Added a new button for banning a user globally that didn't joined the server
 * Added the map-gen-settings parameter
-
 
 0.2.8
 *Fix the script for player playtime to add a check to prevent player hours to be reseted
