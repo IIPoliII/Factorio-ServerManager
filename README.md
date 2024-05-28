@@ -105,37 +105,37 @@ I putted my own `opcache.memory_consumption=512` to 512mb for more files cache t
 * Added the map-gen-settings parameter
 
 0.2.8
-*Fix the script for player playtime to add a check to prevent player hours to be reseted
-*Try to fix to not insert multiple times the matierial
-*Moved the playermanager php file to the scripts folder
-*Changed the whole player manager to work only with PHP now and not behing a hidden bash script
-*Typo corrections
-*More fixes for the player playtime
+* Fix the script for player playtime to add a check to prevent player hours to be reseted
+* Try to fix to not insert multiple times the matierial
+* Moved the playermanager php file to the scripts folder
+* Changed the whole player manager to work only with PHP now and not behing a hidden bash script
+* Typo corrections
+* More fixes for the player playtime
 
 0.2.7
-*Corrected indentations on all files with autoindentation
-*Now when the page is loaded the console directly goes to the bottom
-*Huge optimisation of the admin main page
-*Now the left table is automatically refreshed every 5 seconds
-*When you send a command it puts you to the bottom of the console and if it was chatting scroll down the console
+* Corrected indentations on all files with autoindentation
+* Now when the page is loaded the console directly goes to the bottom
+* Huge optimisation of the admin main page
+* Now the left table is automatically refreshed every 5 seconds
+* When you send a command it puts you to the bottom of the console and if it was chatting scroll down the console
 
 0.2.6
-*Fix to give the fifth parameter for automatic updates (updates fix)
-*Fix permissions to be a bit more restrictive about cut and upgrades
-*Fix the autoperms to use the correct sql name
-*Fixed rocket count to not multiply the counter in case of reset
-*Fixed to not create duplicates servers in the database.
-*Added a check for the SQL connection in factorio-sql.sh
-*Corrected a lot of identation in Factorio-SQL.sh
-*Corrected a lot of identation in factorio-task.sh
-*Fixed binary operator expected in Factorio-SQL.sh
-*Improvement to have more checks for the duplicates creations
+* Fix to give the fifth parameter for automatic updates (updates fix)
+* Fix permissions to be a bit more restrictive about cut and upgrades
+* Fix the autoperms to use the correct sql name
+* Fixed rocket count to not multiply the counter in case of reset
+* Fixed to not create duplicates servers in the database.
+* Added a check for the SQL connection in factorio-sql.sh
+* Corrected a lot of identation in Factorio-SQL.sh
+* Corrected a lot of identation in factorio-task.sh
+* Fixed binary operator expected in Factorio-SQL.sh
+* Improvement to have more checks for the duplicates creations
 
 0.2.5
-*Fix reset message in discord
-*Fix reset message when you use automatic reset
-*Fix update message in discord
-*Fix message that when you delete all the saves it says rollback as title
+* Fix reset message in discord
+* Fix reset message when you use automatic reset
+* Fix update message in discord
+* Fix message that when you delete all the saves it says rollback as title
 
 0.2.4
 * Fix bans to now use correctly send names when banning pepoles
