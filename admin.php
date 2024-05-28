@@ -95,7 +95,7 @@
       $ServerWantedVersion = `sed -n '7p' ${serverpath}/server-config.txt`;
       $ServerWantedVersion = preg_replace('/\s+/', '', $ServerWantedVersion);
 
-      $LastestVersion = `curl -s https://factorio.com/get-download/${ServerWantedVersion}/headless/linux64 | grep -o '[0-9]\.[0-9]\{1,\}\.[0-9]\{1,\}' | head -1`;
+      $LastestVersion = `curl -sSf https://factorio.com/api/latest-releases | jq -r '.stable.headless'`;
 
       //Get the rcon port
 
