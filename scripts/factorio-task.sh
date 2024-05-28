@@ -765,7 +765,7 @@ EOF
 					cd $path
 					VersionServer=$(grep "Loading mod base" factorio-current.log 2>/dev/null | awk '{print $5}' | tail -1)
 					LastestVersion=$(curl -s https://factorio.com/get-download/${fifthparm}/headless/linux64 | grep -o '[0-9]\.[0-9]\{1,\}\.[0-9]\{1,\}' | head -1)
-					if [[ $VersionServer == $LastestVersion ]]; then
+					 if [[ $VersionServer == $LastestVersion ]] || [[ $LastestVersion == "3.7.0" ]]; then
 						echo "The server is at the lastest version : $LastestVersion"
 					else
 						echo "The server is not at the lastest version current : $VersionServer new one $LastestVersion"
