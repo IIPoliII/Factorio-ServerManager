@@ -95,6 +95,7 @@ I putted my own `opcache.memory_consumption=512` to 512mb for more files cache t
 0.2.11
 * Fix updater
 * Use Factorio new API for update checks, with JQ
+* Remove permissions in the saves downloader
 
 0.2.10
 * Fix the map-gen-settings
