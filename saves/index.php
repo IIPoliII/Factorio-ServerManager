@@ -79,9 +79,6 @@ if($_GET['do'] == 'list') {
 				'is_dir' => is_dir($i),
 				'is_deleteable' => $allow_delete && ((!is_dir($i) && is_writable($directory)) ||
 														(is_dir($i) && is_writable($directory) && is_recursively_deleteable($i))),
-				'is_readable' => is_readable($i),
-				'is_writable' => is_writable($i),
-				'is_executable' => is_executable($i),
 			];
 		}
 		usort($result,function($f1,$f2){
@@ -484,7 +481,7 @@ $(function(){
 	<th>Name</th>
 	<th>Size</th>
 	<th>Modified</th>
-	<th>Permissions</th>
+	<th></th>
 	<th>Actions</th>
 </tr></thead><tbody id="list">
 
