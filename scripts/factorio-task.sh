@@ -764,7 +764,7 @@ EOF
 				if [[ $runSQLOutput == "0" ]]; then
 					cd $path
 					VersionServer=$(grep "Loading mod base" factorio-current.log 2>/dev/null | awk '{print $5}' | tail -1)
-					LastestVersion=$(curl -sSf https://factorio.com/api/latest-releases | jq -r '.stable.headless')
+					LastestVersion=$(curl -sSf https://factorio.com/api/latest-releases | jq -r '.experimental.headless')
 					 if [[ $VersionServer == $LastestVersion ]] || [[ $LastestVersion == "3.7.0" ]]; then
 						echo "The server is at the lastest version : $LastestVersion"
 					else
